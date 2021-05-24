@@ -1,0 +1,101 @@
+.main {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid white;
+    position: absolute;  
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.red{
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.black {
+    background-color: black;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.gray {
+    background-color: gray;
+}
+.pink {
+    background-color: pink;
+}
+
+#first {
+    top: 0;
+    left: 0;
+}
+
+#second {
+    top: 0;
+    left: 25%;
+}
+
+#third {
+    top: 0;
+    left: 50%;
+}
+
+#fourth {
+    top: 25%;
+    left: 0;
+}
+
+#fifth {
+    top: 25%;
+    left: 25%;
+}
+
+#sixth {
+    top: 25%;
+    left: 50%;
+}
+
+#seventh {
+    top: 50%;
+    left: 0;
+}
+
+#eighth {
+    top: 50%;
+    left: 25%;
+}
+
+#ninth {
+    top: 50%;
+    left: 50%;
+}
+
